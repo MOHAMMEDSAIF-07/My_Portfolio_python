@@ -1,4 +1,5 @@
 from flask import Flask, Response
+import os  # Required for environment variables
 
 app = Flask(__name__)
 
@@ -3402,7 +3403,7 @@ def get_page(page_name):
 </body>
 </html>
         '''
-    }
+}
     return pages.get(page_name, "")
 
 @app.route('/')
@@ -3426,4 +3427,5 @@ def contact():
     return Response(get_page("contact"), mimetype='text/html')
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host='0.0.0.0', port=port)
