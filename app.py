@@ -2684,7 +2684,7 @@ def get_page(page_name):
                             <span class="project-tag">JAVASCRIPT</span>
                             <span class="project-tag">PYTHON</span>
                         </div>
-                        <a href="https://file-share-web-server-io.onrender.com/" class="project-link">View Project <i class="fas fa-arrow-right"></i></a>
+                        <a href="https://directdrop-filesharing-web-server.onrender.com/" class="project-link">View Project <i class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
