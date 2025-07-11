@@ -3378,6 +3378,7 @@ def get_page(page_name):
                         <a href="https://github.com/MOHAMMEDSAIF-07" class="social-link"><i class="fab fa-github"></i></a>
                         <a href="https://t.me/Mdsaif_0007" class="social-link"><i class="fab fa-telegram"></i></a>
                         <a href="https://www.instagram.com/md.saif____" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/mohammed-saif-hyderabad" class="social-link"><i class="fab fa-linkedin"></i></a>
                     </div>
                 </div>
             </div>
